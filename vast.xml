@@ -1,15 +1,15 @@
 <VAST version="3.0">
   <Ad id="1">
     <InLine>
-      <AdSystem version="1.0">FilmGozar-Test</AdSystem>
-      <AdTitle>تبلیغ تستی فیلم‌گذر</AdTitle>
+      <AdSystem version="1.0">FilmGozar-Vast</AdSystem>
+      <AdTitle>تبلیغ فیلم‌گذر</AdTitle>
       <Creatives>
         <Creative sequence="1" id="1">
-          <Linear>
+          <Linear skipoffset="00:00:05">
             <Duration>00:00:15</Duration>
             <MediaFiles>
-              <MediaFile delivery="progressive" type="video/mp4" width="640" height="360" scalable="true" maintainAspectRatio="true">
-                https://archive.org/download/Popeye_forPresident/Popeye_forPresident_512kb.mp4
+              <MediaFile delivery="progressive" type="video/mp4" width="720" height="1280" scalable="true" maintainAspectRatio="true">
+                https://filmgozar.s3.ir-thr-at1.arvanstorage.ir/irane.Jan.Esfahan.mp4
               </MediaFile>
             </MediaFiles>
           </Linear>
